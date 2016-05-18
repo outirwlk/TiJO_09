@@ -1,0 +1,85 @@
+24 of 24 unignored mutations are tested (100%). 3 mutations were ignored.
+24 of 24 unignored mutations are tested (100%). 3 mutations were ignored.
+24 of 24 unignored mutations are tested (100%). 3 mutations were ignored.
+/app/app.js:7:13 Removed var area; -> SURVIVED
+/app/app.js:9:51 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:88 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:63 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:38 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:25 Replaced  !==  with === -> SURVIVED
+/app/app.js:8:30 Replaced 'number' with "MUTATION!" -> SURVIVED
+/app/app.js:8:50 Replaced  !==  with === -> SURVIVED
+/app/app.js:8:55 Replaced 'number' with "MUTATION!" -> SURVIVED
+/app/app.js:8:75 Replaced  !==  with === -> SURVIVED
+/app/app.js:8:80 Replaced 'number' with "MUTATION!" -> SURVIVED
+/app/app.js:9:38 Replaced  !==  with === -> SURVIVED
+/app/app.js:9:43 Replaced 'string' with "MUTATION!" -> SURVIVED
+/app/app.js:9:74 Replaced  !==  with === -> SURVIVED
+/app/app.js:9:79 Replaced 'string' with "MUTATION!" -> SURVIVED
+/app/app.js:13:17 Removed area = a > b ? a - b * c : b - a * c; -> SURVIVED
+/app/app.js:14:17 Removed if (area > 0) { return {area: area, message: messageSuccess}; } else if (area < 0) { return {area: area, message: messageError}; } else { return {area: 0, message: 'Big null'}; } -> SURVIVED
+/app/app.js:13:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:13:25 Replaced  >  with <= -> SURVIVED
+/app/app.js:13:33 Replaced  -  with + -> SURVIVED
+/app/app.js:13:37 Replaced  *  with / -> SURVIVED
+/app/app.js:13:45 Replaced  -  with + -> SURVIVED
+/app/app.js:13:49 Replaced  *  with / -> SURVIVED
+/app/app.js:14:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:25 Replaced  >  with <= -> SURVIVED
+/app/app.js:14:28 Replaced 0 with 1 -> SURVIVED
+/app/app.js:15:21 Removed return {area: area, message: messageSuccess}; -> SURVIVED
+/app/app.js:15:29 Removed area: area,  -> SURVIVED
+/app/app.js:15:41 Removed message: messageSuccess -> SURVIVED
+/app/app.js:17:30 Replaced  <  with <= -> SURVIVED
+/app/app.js:17:30 Replaced  <  with >= -> SURVIVED
+/app/app.js:17:33 Replaced 0 with 1 -> SURVIVED
+/app/app.js:18:21 Removed return {area: area, message: messageError}; -> SURVIVED
+/app/app.js:18:29 Removed area: area,  -> SURVIVED
+/app/app.js:18:41 Removed message: messageError -> SURVIVED
+/app/app.js:21:21 Removed return {area: 0, message: 'Big null'}; -> SURVIVED
+/app/app.js:21:29 Removed area: 0,  -> SURVIVED
+/app/app.js:21:38 Removed message: 'Big null' -> SURVIVED
+/app/app.js:21:35 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:47 Replaced 'Big null' with "MUTATION!" -> SURVIVED
+10 of 50 unignored mutations are tested (20%). 3 mutations were ignored.
+/app/app.js:8:88 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:63 Replaced  ||  with && -> SURVIVED
+/app/app.js:13:25 Replaced  >  with >= -> SURVIVED
+47 of 50 unignored mutations are tested (94%). 3 mutations were ignored.
+/app/app.js:7:13 Removed var area; -> SURVIVED
+/app/app.js:8:88 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:63 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:30 Replaced 'number' with "MUTATION!" -> SURVIVED
+/app/app.js:8:50 Replaced  !==  with === -> SURVIVED
+/app/app.js:8:55 Replaced 'number' with "MUTATION!" -> SURVIVED
+/app/app.js:8:75 Replaced  !==  with === -> SURVIVED
+/app/app.js:8:80 Replaced 'number' with "MUTATION!" -> SURVIVED
+/app/app.js:9:38 Replaced  !==  with === -> SURVIVED
+/app/app.js:9:43 Replaced 'string' with "MUTATION!" -> SURVIVED
+/app/app.js:9:79 Replaced 'string' with "MUTATION!" -> SURVIVED
+/app/app.js:13:17 Removed area = a > b ? a - b * c : b - a * c; -> SURVIVED
+/app/app.js:14:17 Removed if (area > 0) { return {area: area, message: messageSuccess}; } else if (area < 0) { return {area: area, message: messageError}; } else { return {area: 0, message: 'Big null'}; } -> SURVIVED
+/app/app.js:13:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:13:25 Replaced  >  with <= -> SURVIVED
+/app/app.js:13:33 Replaced  -  with + -> SURVIVED
+/app/app.js:13:37 Replaced  *  with / -> SURVIVED
+/app/app.js:13:45 Replaced  -  with + -> SURVIVED
+/app/app.js:13:49 Replaced  *  with / -> SURVIVED
+/app/app.js:14:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:14:25 Replaced  >  with <= -> SURVIVED
+/app/app.js:14:28 Replaced 0 with 1 -> SURVIVED
+/app/app.js:15:21 Removed return {area: area, message: messageSuccess}; -> SURVIVED
+/app/app.js:15:29 Removed area: area,  -> SURVIVED
+/app/app.js:15:41 Removed message: messageSuccess -> SURVIVED
+/app/app.js:17:30 Replaced  <  with <= -> SURVIVED
+/app/app.js:17:30 Replaced  <  with >= -> SURVIVED
+/app/app.js:17:33 Replaced 0 with 1 -> SURVIVED
+/app/app.js:18:21 Removed return {area: area, message: messageError}; -> SURVIVED
+/app/app.js:18:29 Removed area: area,  -> SURVIVED
+/app/app.js:18:41 Removed message: messageError -> SURVIVED
+/app/app.js:21:21 Removed return {area: 0, message: 'Big null'}; -> SURVIVED
+/app/app.js:21:29 Removed area: 0,  -> SURVIVED
+/app/app.js:21:38 Removed message: 'Big null' -> SURVIVED
+/app/app.js:21:35 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:47 Replaced 'Big null' with "MUTATION!" -> SURVIVED
+14 of 50 unignored mutations are tested (28%). 3 mutations were ignored.

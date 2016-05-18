@@ -7,7 +7,7 @@
         grunt.loadNpmTasks('grunt-mutation-testing');
         grunt.loadNpmTasks('grunt-contrib-jshint');
         grunt.loadNpmTasks('grunt-karma');
-
+        grunt.loadNpmTasks('grunt-stryker');
         grunt.initConfig({
             karma: {
                 options: {
